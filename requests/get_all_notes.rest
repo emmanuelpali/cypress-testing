@@ -1,0 +1,13 @@
+GET http://localhost:3000/api/notes
+
+###
+POST http://localhost:3000/api/notes HTTP/1.1
+content-type: application/json
+Authorization: bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6ImRpZmZyZW50IiwiaWQiOiI2NWEyYjA4NTU0NmI5NWE5ZmFhMzhhY2QiLCJpYXQiOjE3MDUxNjM5NDF9.HqhIMIBwo-7tAudi3IZAsnA7ZDhLx_e3iDVPQJbsSWk
+
+
+{
+    "content": "third  note", 
+    "important": true,
+    "userId": "65a2b085546b95a9faa38acd"
+}
